@@ -4,7 +4,7 @@ class Hash
     arguments.each do |arg|
     self.each do |key, val|
 if val == arg
-keysarray << key 
+keysarray << key
 end
 end
 end
